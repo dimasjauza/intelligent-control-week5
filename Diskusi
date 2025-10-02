@@ -1,0 +1,6 @@
+1. Apa kelebihan dan kelemahan DQN dibandingkan metode Q-Learning klasik?
+DQN memiliki keunggulan karena mampu menangani ruang keadaan yang luas dan kompleks melalui penggunaan neural network, sementara Q-Learning konvensional hanya terbatas pada representasi tabel Q. Meski begitu, DQN lebih rumit, memerlukan sumber daya komputasi yang besar, serta cenderung tidak stabil jika tidak didukung dengan teknik tambahan.
+
+
+2. Bagaimana cara mengadaptasi DQN untuk kontrol sistem dinamis seperti drone atau robot industri?
+DQN dapat diterapkan dengan memanfaatkan input state dari berbagai sensor seperti kamera, IMU, atau lidar, kemudian menggunakan diskretisasi aksi atau metode lanjutan untuk menangani aksi kontinu, serta menyusun fungsi reward yang sesuai dengan tujuan kontrol, misalnya untuk stabilisasi drone atau operasi robot pick-and-place.
